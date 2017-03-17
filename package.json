@@ -4,7 +4,7 @@
   "description": "A pure javascript library for printing labels on a Dymo Labelwriter printer from the browser or from nodejs.",
   "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 0"
+    "test": "mocha tests/"
   },
   "keywords": [
     "node",
