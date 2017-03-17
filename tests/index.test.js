@@ -4,7 +4,13 @@ const { expect } = require('chai'),
 			Dymo = require('../lib');
 
 describe('dymo library', () => {
-	it('should get printers', (done) => {
+	it('should create an instance of the Dymo class', () => {
+		let dymo = new Dymo();
+
+		expect(dymo).to.not.be.undefined;
+	});
+
+	it.skip('should get printers', (done) => {
 		let dymo = new Dymo();
 		dymo.getPrinters()
 			.then((printersResponseText) => {

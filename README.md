@@ -1,5 +1,7 @@
 # dymojs
 
+[![Build Status](https://travis-ci.org/dsandor/dymojs.svg?branch=master)](https://travis-ci.org/dsandor/dymojs)
+
 #### Wicked simple pure javascript cross platform Dymo Labewriter printing module for Node.js with no platform dependencies.
 
 This module works on **Mac**, **Linux**, and **Windows**.
