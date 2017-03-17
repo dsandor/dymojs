@@ -1,6 +1,6 @@
 {
   "name": "dymojs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A pure javascript library for printing labels on a Dymo Labelwriter printer from the browser or from nodejs.",
   "main": "lib/index.js",
   "scripts": {
