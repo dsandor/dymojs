@@ -14,12 +14,16 @@
   ],
   "author": "David Sandor",
   "license": "ISC",
+  "repository" :
+  { 
+    "type" : "git",
+    "url" : "https://github.com/dsandor/dymojs.git"
+  },
   "devDependencies": {
     "chai": "^3.5.0",
     "mocha": "^3.2.0"
   },
   "dependencies": {
-    "form-data": "^2.1.2",
     "node-fetch": "^1.6.3"
   }
 }
