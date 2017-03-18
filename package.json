@@ -1,6 +1,6 @@
 {
   "name": "dymojs",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "A pure javascript library for printing labels on a Dymo Labelwriter printer from the browser or from nodejs.",
   "main": "lib/index.js",
   "scripts": {
@@ -14,10 +14,9 @@
   ],
   "author": "David Sandor",
   "license": "ISC",
-  "repository" :
-  { 
-    "type" : "git",
-    "url" : "https://github.com/dsandor/dymojs.git"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dsandor/dymojs.git"
   },
   "devDependencies": {
     "chai": "^3.5.0",
