@@ -34,9 +34,10 @@ dymo.print('DYMO LabelWriter 450', labelXml);
 render a label preview
 
 ```
-dymo.print(labelXml).then(imageData => {
+dymo.render(labelXml).then(imageData => {
 	// returns imageData as base64 encoded png.
-	// use <img src="data:image/png;base64,${imageData}"/> or require("fs").writeFile("out.png", imageData, 'base64', function(err) {...});
+	// use <img src="data:image/png;base64,${imageData}"/>
+	// or require("fs").writeFile("out.png", imageData, 'base64', function(err) {...});
 });
 ```
 
