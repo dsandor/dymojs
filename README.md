@@ -31,6 +31,16 @@ const Dymo = require('dymojs'),
 dymo.print('DYMO LabelWriter 450', labelXml);
 ```
 
+render a label preview
+
+```
+dymo.renderLabel(labelXml).then(imageData => {
+	// returns imageData as base64 encoded png.
+	// use <img src="data:image/png;base64,${imageData}"/>
+	// or require("fs").writeFile("out.png", imageData, 'base64', function(err) {...});
+});
+```
+
 ### how do I get the xml for a label?
 Open the free `DYMO Label` software and design a label.  When you have designed one save it.  The file it saves is an XML document like the one below.  Simply pass that XML or (hint hint) a version of that XML that you did some string replacement on to the print function with a printer name and you are printing labels.
 
